@@ -1,14 +1,14 @@
 ﻿//Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 Console.Write("Введите число: ");
-int N = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-int SN = 2; 
+int revDiv = 2; 
 
-if(N > 1)
+if(number > 1)
 {
-    while(SN <= N)
+    while(revDiv <= number)
     {
-        System.Console.WriteLine(SN + " ");
-        SN = SN + 2;
+        System.Console.WriteLine(revDiv + " ");
+        revDiv = revDiv + 2;
     }
 }
