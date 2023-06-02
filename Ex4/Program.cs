@@ -8,7 +8,7 @@ if(number > 1)
 {
     while(revDiv <= number)
     {
-        System.Console.WriteLine(revDiv + " ");
+        // System.Console.WriteLine(revDiv + " ");
         revDiv = revDiv + 2;
     }
 }
